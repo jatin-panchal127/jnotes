@@ -8,9 +8,7 @@ const Navbar = () => {
     history.push("/login");
   };
   let location = useLocation();
-  useEffect(() => {
-    console.log();
-  }, [location]);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
